@@ -1,0 +1,179 @@
+#dynamicTable
+{
+    width:955px; 
+    height:100%;
+    background-color: lightgray;
+	margin-left:20%; 
+}
+table
+{
+	margin-left:-38.5%; 
+	background-color: cadetblue;
+    margin-left:6px;
+    margin-top: -15%;
+}
+
+h1
+{
+  	padding: 10px 10px;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+caption
+{
+	color:white;
+	background-color: cadetblue;
+	font-size: 16px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#addButton,#clearButton,#addRow
+{
+    background-color: cadetblue;
+    color:white;
+    font-size: 16px;
+    width:150px;
+    height: 60px;
+    border-style: none;
+    float: right;
+    position: absolute; 
+	margin-left:65%;
+    font-family: inherit;
+}
+
+.cellAdd,.deleteButton,.cellDelete,#ex1,#ex2,#ex3
+{
+	color:white;
+    font-size: 16px;
+    border-radius:20px;
+    width:30px;
+    height:25px;
+	border-style: none;
+    margin-left: 10px;
+}
+
+#infoChart
+{
+	border: 5px solid lightgray;
+	width:240px;
+}
+input
+{
+    width: 100px;
+    height: 40px;
+	background-color: lightgray;
+    border-style: none; 
+    text-align: center;
+}
+
+.red,.goRed
+{
+	background-color:red;
+}
+
+.pink,.goPink
+{
+	background-color:hotpink;
+}
+
+.goRed,.goPink,.theDefault,.goBlack,.goBlue,.goOrange
+{
+	margin-left:-20%;
+    width:50px;
+    height: 50px;
+    border-style: none;
+	top:154px;
+}
+
+.default,.theDefault
+{
+	background-color: cadetblue;
+}
+
+.black,.goBlack
+{
+	background-color: black;
+}
+
+.blue,.goBlue
+{
+	background-color: blue;
+}
+
+.orange,.goOrange
+{
+	background-color: orange;
+}
+
+#colButtons
+{
+	padding-left:130px;
+}
+.colourCustom
+{
+	width:250px;
+	margin-top:-38%;
+	background-color: lightgray;
+}
+
+#fontChange
+{
+    background-color: lightgray;
+    width:250px;
+    height:100px;
+    float:left;
+    margin-top:-48%;
+    
+}
+#fontC
+{
+    margin-top:-10px;
+    background-color: cadetblue;
+    color:white;
+    text-align: center;
+}
+
+#theme
+{
+	width:240px;
+	margin-top:-49%;
+	color:white;
+	height:30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: cadetblue;
+}
+#bigger,#smaller
+{
+    height:28px;
+    width:30px;
+    font-size:22px;
+    font-family:;
+    background-color: cadetblue;
+    border-style: none;
+    color:white;
+    margin-left:10px;
+    font-weight: bold;
+    
+    
+}
+select
+{
+    background-color: cadetblue;
+    color:white;
+    border-style: none; 
+    height:30px;
+    margin-left:10px;
+    font-family: inherit;
+    font-weight: bold;
+}
+body
+{
+    max-width:1920px;
+}
+#infoChart p
+{
+    text-align:center;
+}

@@ -1,0 +1,55 @@
+<html>
+    
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+	<div id="webApp">
+		<div id="dynamicTable">
+			<h1 class=theHead>Table Generator</h1>
+            <button id="addButton"><b>Add Table</b></button><br><br><br><br>
+			<button id="addRow"><b>Add Row</b></button><br><br><br><br>
+            <button id="clearButton"><b> Clear </b></button><br><br>
+		</div>
+        <div class="colourCustom">
+            <h2 id="theme">Change Theme Colour</h2>
+            <div id= "colButtons">
+                <button class="goRed"></button><br>
+                <button class="goPink"></button><br>
+                <button class="theDefault"></button><br>
+                <button class="goBlack"></button><br>
+                <button class="goBlue"></button><br>
+                <button class="goOrange"></button><br>
+            </div>
+		</div>
+        <div id="infoChart">
+			<br>
+			<button id="ex1">C+</button><p>   Add a cell to the row</p><hr>
+			<button id="ex2">C-</button><p>   Remove a cell from the row</p><hr>
+			<button id="ex3">R-</button><p>   Remove the row</p>
+		</div>
+        <div id="fontChange">
+            <h2 id="fontC">Change Font</h2>
+            <select>
+                <option value="1">Verdana</option>
+                <option value="2">Times New Roman</option>
+                <option value="3">Helvetica</option>
+                <option value="4">Arial Black</option>
+                <option value="5">Georgia</option>
+                <option value="6">Impact</option>
+                <option value="7">Courier New</option>
+            </select>
+            
+            <button id="bigger"><b>+</b></button>
+            <button id="smaller"><b>-</b></button>
+        </div>
+	</div>
+        
+        <script src="libs/jquery.js"></script>
+        <script src="table_gen.js"></script>
+        <script src="libs/annyang.js"></script>
+    </body>
+        
+    
+</html>
